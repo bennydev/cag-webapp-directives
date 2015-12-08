@@ -4,11 +4,11 @@ angular.module('controllers').controller('Example5Ctrl', ['$scope', '$state', fu
     $scope.hideBackButton = false;
 
     $scope.nextStep = function () {
-        $state.go('example1');
+        $state.go('example6');
     };
 
     $scope.prevStep = function () {
-        $state.go('example3');
+        $state.go('example4');
     };
 
     $scope.noDisplay = function () {

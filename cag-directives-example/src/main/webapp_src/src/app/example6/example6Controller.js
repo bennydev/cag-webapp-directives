@@ -8,11 +8,8 @@ angular.module('controllers').controller('Example6Ctrl', ['$scope', '$state', fu
     };
 
     $scope.prevStep = function () {
-        $state.go('example3');
+        $state.go('example5');
     };
 
-    $scope.noDisplay = function () {
-        return true;
-    };
-}
+ }
 ]);
