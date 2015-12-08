@@ -2,7 +2,7 @@
 /**
  This is a minimal template for claim angular apps.
  */
-angular.module('templateClaim', [
+angular.module('demoApp', [
         //////////////////
         // Core modules //
         //////////////////
@@ -14,7 +14,6 @@ angular.module('templateClaim', [
         // Third party modules //
         /////////////////////////
         'ui.router',
-        'LocalStorageModule',
         //////////////////////
         // Template modules //
         //////////////////////
@@ -28,7 +27,7 @@ angular.module('templateClaim', [
         'directives',
         'filters',
         'integration'])
-    .controller('TemplateAppController', ['$scope', '$state', '$rootScope',
+    .controller('AppController', ['$scope', '$state', '$rootScope',
         function ($scope, $state, $rootScope) {
             $scope.pageTitle = "Template for angular claim apps";
         }])

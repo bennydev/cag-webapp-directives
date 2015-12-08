@@ -71,9 +71,6 @@ module.exports = {
             'vendor/angular-bootstrap/ui-bootstrap.js',
             'vendor/angular-bootstrap/ui-bootstrap-tpls.js',
             'vendor/angular-ui-router/release/angular-ui-router.js',
-            'vendor/angular-local-storage/dist/angular-local-storage.js',
-            'vendor/angular-translate/angular-translate.js',
-            'vendor/angular-translate-loader-static-files/angular-translate-loader-static-files.js',
             'vendor/ngDialog/js/ngDialog.js',
         ],
         // goes for minifying
