@@ -3,27 +3,20 @@
         <div class="row">
             <div class="col-sm-12">
                 <h4 class="block-header">Transclude-exempel</h4>
-                <p /> .
+
+                <p/> .
             </div>
         </div>
         <div class="input-block-container">
             <!-- PERSONAL NUMBER -->
-        <person-id-four></person-id-four>
-            <transclude-pane>
-                {{personId}}
-            </transclude-pane>
+            <person-info></person-info>
 
-            <input type="text" ng-model="personName">
-
-            <transclude-pane>
-                {{personName}}
-            </transclude-pane>sclude
-        <div class="row">
-            <ng-include src="'navButtons/navButtons.tpl.html'"></ng-include>
-        </div>
-        <div class="row">
-            <ng-include src="'errorMessages/errorMessages.tpl.html'"></ng-include>
-        </div>
+            <div class="row">
+                <ng-include src="'navButtons/navButtons.tpl.html'"></ng-include>
+            </div>
+            <div class="row">
+                <ng-include src="'errorMessages/errorMessages.tpl.html'"></ng-include>
+            </div>
             <div class="row">
                     <pre>
                         "use strict";

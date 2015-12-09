@@ -1,5 +1,5 @@
 "use strict";
-angular.module('directives').directive('personIdValidFour', ['$log', function ($log) {
+angular.module('directives').directive('personIdValidSix', ['$log', function ($log) {
     $log.log("in personIdValid");
 
     return {
