@@ -4,7 +4,7 @@ angular.module('directives').directive('personalInfo', ['$log', function ($log) 
 
     return {
         restrict: 'E',
-        replace: 'true',
+        replace: 'false',
         controller: ['$scope', function($scope) {
             // this -> controller
             this.logInput = function(logMessage) {

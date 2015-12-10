@@ -8,8 +8,8 @@ angular.module('directives').directive('personName', function () {
         replace: 'true',
         templateUrl: 'example7/directives/personName.tpl.html',
         link: function(scope, elem, attrs, controller) {
-            scope.logMessage = 'Test';
-            controller.logInput(scope);
+            scope.logMessage = 'personName ready for input.';
+            controller.logInput(scope.logMessage);
         }
     };
 
