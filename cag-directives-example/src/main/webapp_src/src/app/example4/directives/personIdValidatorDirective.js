@@ -4,7 +4,7 @@ angular.module('directives').directive('personIdValidTwo', ['$log', function ($l
     return {
         // Isolated scope
         scope: {
-            // two-way binding to person-id-attr - means we can change the value...
+            // two-way binding to person-id - means we can change the value in the parent scope...
             personId: '='
         },
         // As attribute only

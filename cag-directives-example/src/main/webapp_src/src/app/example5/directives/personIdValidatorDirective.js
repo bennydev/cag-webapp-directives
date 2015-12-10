@@ -1,15 +1,14 @@
 "use strict";
-angular.module('directives').directive('personIdValidFour', ['$log', function ($log) {
+angular.module('directives').directive('personIdValidFive', ['$log', function ($log) {
     $log.log("in personIdValid");
 
     return {
         // Isolated scope
         scope: {
-            // two-way binding to person-id-attr - means we can change the value...
+            // two-way binding to personId - means we can change the value...
             personId: '=',
             //
             noDisplay: '&'
-            //hiddenPersonId: ''
         },
         // As attribute only
         restrict: 'A',
@@ -36,7 +35,7 @@ angular.module('directives').directive('personIdValidFour', ['$log', function ($
             elem.bind('input', function() {
                 if (scope.noDisplay()) {
                     if (scope.personId) {
-                        var starString = scope.personId.slice(0, scope.personId.length - 1) + '*';
+                        var starString = scope.personId.slice(0, scope.personId.length - 1) + 'x';
                         setHiddenPersonId(scope.personId.slice(scope.personId.length - 1));
                         scope.personId = starString;
                         scope.$apply(scope.personId = starString);

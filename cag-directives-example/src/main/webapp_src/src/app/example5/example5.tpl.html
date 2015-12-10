@@ -8,7 +8,7 @@
         </div>
         <div class="input-block-container">
             <!-- PERSONAL NUMBER -->
-        <person-id-four></person-id-four>
+        <person-id-five personId="personId" no-display="noDisplay()"></person-id-five>
 
         <div class="row">
             <ng-include src="'navButtons/navButtons.tpl.html'"></ng-include>
@@ -19,7 +19,7 @@
             <div class="row">
                     <pre>
                         "use strict";
-                        angular.module('directives').directive('personIdValidFour', ['$log', function ($log) {
+                        angular.module('directives').directive('personIdValidFive', ['$log', function ($log) {
                             $log.log("in personIdValid");
 
                             return {

@@ -6,7 +6,7 @@ angular.module('directives').directive('personInfo', [ function () {
         scope: true,
         restrict: 'E',
         replace: 'true',
-        templateUrl: 'example6/directives/personId.tpl.html'
+        templateUrl: 'example6/directives/personInfo.tpl.html'
     };
 
 }]);
