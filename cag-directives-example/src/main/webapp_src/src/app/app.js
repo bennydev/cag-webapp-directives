@@ -78,6 +78,13 @@ angular.module('demoApp', [
                     templateUrl: 'example6/example6.tpl.html',
                     controller: 'Example6Ctrl'
                 }
+            }}).state('example7', {
+            url: '/example7',
+            views: {
+                'main': {
+                    templateUrl: 'example7/example7.tpl.html',
+                    controller: 'Example7Ctrl'
+                }
             }});
 
     }]);

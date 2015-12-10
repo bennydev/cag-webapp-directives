@@ -8,7 +8,7 @@ angular.module('controllers').controller('Example6Ctrl', ['$scope', '$state', fu
     };
 
     $scope.nextStep = function () {
-        $state.go('example1');
+        $state.go('example7');
     };
 
     $scope.prevStep = function () {

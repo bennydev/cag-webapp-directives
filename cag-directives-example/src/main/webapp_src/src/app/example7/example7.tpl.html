@@ -1,4 +1,4 @@
-<div ng-controller="Example6Ctrl">
+<div ng-controller="Example7Ctrl">
     <form name="registerPerson2" novalidate>
         <div class="row">
             <div class="col-sm-12">
@@ -9,7 +9,7 @@
         </div>
         <div class="input-block-container">
             <!-- PERSONAL NUMBER -->
-            <person-info></person-info>
+            <personal-info personInfo="{{personInfo}}"></personal-info>
 
             <div class="row">
                 <ng-include src="'navButtons/navButtons.tpl.html'"></ng-include>
@@ -18,8 +18,7 @@
                 <ng-include src="'errorMessages/errorMessages.tpl.html'"></ng-include>
             </div>
             <div class="row">
-                    <pre>Due to Angular not being able to detect CDATA tags,
-                        but tries to parse the code example, it has been left out...</pre>
+                    <pre>TBD...</pre>
             </div>
         </div>
     </form>
